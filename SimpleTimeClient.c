@@ -18,7 +18,7 @@
 
 int daemon_proc = 0;
 
-static void	err_doit(int, int, const char *, va_list);
+static void err_doit(int, int, const char *, va_list);
 
 void err_sys(const char *fmt, ...)
 {
